@@ -1,5 +1,5 @@
 {
-    "name": "genresapi development",
+    "name": "genresapi production",
     "database": {
         "host": "prod-database-server"
     }
