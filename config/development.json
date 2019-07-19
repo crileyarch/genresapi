@@ -1,0 +1,6 @@
+{
+    "name": "genresapi development",
+    "database": {
+        "host": "dev-database-server"
+    }
+}

@@ -1,3 +1,4 @@
+const config = require("config");
 const Joi = require('joi');
 const express = require('express');
 const app = express();
@@ -7,6 +8,11 @@ console.log(`NODE_ENV: ${process.env.NODE_ENV}`);
 console.log();
 
 app.use(express.json());
+
+//Configuration
+console.log('Application Name: ' + config.get('name'));
+console.log('Application Name: ' + config.get('database.host'));
+
 
 if (app.get('env') === 'development'){
     app.use(morgan('tiny'));

@@ -1,0 +1,6 @@
+{
+    "name": "genresapi default",
+    "database": {
+        "host": "default-database-server"
+    }
+}
