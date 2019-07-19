@@ -11,7 +11,7 @@ app.use(express.json());
 
 //Configuration
 console.log('Application Name: ' + config.get('name'));
-console.log('Application Name: ' + config.get('database.host'));
+console.log('Database Server Name: ' + config.get('database.host'));
 
 
 if (app.get('env') === 'development'){
